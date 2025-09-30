@@ -99,7 +99,7 @@ if($ghAvailable){
     # Create repo
     $createCmd = "gh repo create $githubUser/$repoName --$visibility --source=. --remote=origin --push"
     Info "Running: $createCmd"
-    iex $createCmd
+    Invoke-Expression $createCmd
     if($LASTEXITCODE -eq 0){
         Info "Repository created and pushed. Opening repository page..."
         Start-Process "https://github.com/$githubUser/$repoName"
