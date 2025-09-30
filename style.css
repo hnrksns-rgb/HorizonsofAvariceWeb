@@ -7,6 +7,14 @@
   --text:#e6eef8;
   --max-width:1000px;
 }
+
+body { 
+    background-image: url("assets/HeroB.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
