@@ -22,6 +22,7 @@ body{
   padding:1.25rem;
 }
 .site-header{backdrop-filter:blur(6px);position:sticky;top:0;background:rgba(0,0,0,0.25);z-index:20}
+
 .header-inner{display:flex;align-items:center;justify-content:space-between}
 .logo{font-weight:700;color:var(--text);text-decoration:none}
 .nav{display:flex;gap:1rem}
