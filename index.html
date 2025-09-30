@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Horizon of Avarice</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="A simple static scaffold for Horizon of Avarice website." />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="logo">Horizon of Avarice</a>
+        <nav class="nav" id="nav">
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>Welcome to the official website for Horizons of Avarice</h1>
+            <p class="lead">Metal band based out of Salt Lake County, UT.</p>
+            <p><a class="btn" href="#features">About Us</a></p>
+          </div>
+          <div class="hero-media" aria-hidden="false">
+            <img src="assets/Band Logo.PNG" alt="Band members silhouette photo placeholder" />
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features container">
+        <h2>About us</h2>
+        <div class="grid">
+          <article>
+            <h3>Members</h3>
+            <p>Vocals: Spencer Henricksen
+              Lead Guitar: Lorenzo Wittke
+              Rythym Guitar: Parker Buckner
+              <br> 
+              Bassist: Parker Buckner
+            </p>
+          </article>
+          <article>
+            <h3>Inspiration</h3>
+            <p>We have been inspired to create our own music by many things, here are some of them.
+               <br>
+
+              "Spencer has mainly been inspired by all the great vocalists in the metal community including Will Ramos of Lorna Shore, Ryan Vail of Larcenia Roe, Nicolas TFB, etc... mainly for the unique sounds and noises these vocalists can make is what has inspired me to become a vocalist myself."
+              <br> 
+
+              "Lorenzo has mainly been inspired by all the great guitarists in the metal community including Manuel Gardner of Oceano, Tim Henson of Polyphia, Steve Vai, etc... mainly for their unique sounds and techniques that they use to create the music they do."
+              <br>
+
+              "Parker has mainly been inspired by all the great guitarists in the metal commubity including Syn Gates of Periphery, Dimebag Darrell of Pantera, John Pertrucci of Dream Theater, etc... mainly for their styles and techniques that they use to create the music they do."
+            </p>
+          </article>
+          <article>
+            <h3>Our Music</h3>
+            <p>We are aiming to make music that will immerse our listeners in our music and will come back wanting even more by mixing different sub genres of metal together to create the unique sound of Horizons of Avarice</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container">
+        <h2>Contact</h2>
+        <form id="contactForm" data-endpoint="https://formspree.io/f/manpowzy">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 Horizon of Avarice</p>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

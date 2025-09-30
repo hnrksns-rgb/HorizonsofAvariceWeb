@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#111"/>
+      <stop offset="100%" stop-color="#3b0f0f"/>
+    </linearGradient>
+    <style>
+      .title { font: 48px 'Segoe UI', Roboto, Arial; fill: #fff; font-weight:700 }
+      .sub { font: 20px 'Segoe UI', Roboto, Arial; fill: #f0e6e6 }
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)" />
+  <g transform="translate(80,140)">
+    <rect x="0" y="0" width="1040" height="520" rx="16" fill="rgba(0,0,0,0.25)" />
+    <text x="40" y="120" class="title">Horizons of Avarice</text>
+    <text x="40" y="170" class="sub">Official band photo — replace this with a real image</text>
+    <g transform="translate(40,220)" opacity="0.95">
+      <rect x="0" y="0" width="200" height="200" rx="8" fill="#222" />
+      <rect x="220" y="0" width="200" height="200" rx="8" fill="#2a2a2a" />
+      <rect x="440" y="0" width="200" height="200" rx="8" fill="#2f1b1b" />
+      <rect x="660" y="0" width="200" height="200" rx="8" fill="#241616" />
+    </g>
+  </g>
+</svg>
