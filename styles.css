@@ -1,5 +1,6 @@
 :root{
-  --bg:#0f1724;
+  /* dark red background */
+  --bg:#3b0b0b;
   --card:#111827;
   --muted:#a16666;
   --accent:#eb3c3c;
@@ -11,7 +12,7 @@ html,body{height:100%}
 body{
   margin:0;
   font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,"Helvetica Neue",Arial;
-  background:linear-gradient(180deg,var(--bg),#05060a);
+  background-color:var(--bg);
   color:var(--text);
   line-height:1.5;
 }
