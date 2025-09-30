@@ -93,4 +93,5 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 5
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  backdrop-filter: blur(1000px);
 }
