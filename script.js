@@ -49,3 +49,19 @@ if(form){
     }
   });
 }
+    function checkScreenSize() {
+        if (window.innerWidth < 768) {
+            // Apply specific JavaScript logic for mobile
+            console.log("Mobile view detected");
+            // Example: Change a class or modify DOM elements
+            document.body.classList.add('mobile-layout');
+        } else {
+            // Apply specific JavaScript logic for desktop
+            console.log("Desktop view detected");
+            document.body.classList.remove('mobile-layout');
+        }
+    }
+
+    // Run on page load and window resize
+    window.addEventListener('load', checkScreenSize);
+    window.addEventListener('resize', checkScreenSize);
