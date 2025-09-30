@@ -88,4 +88,9 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 5
         }
     }
 
-    
+    body {
+  background-image: url('asset/Hero1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
