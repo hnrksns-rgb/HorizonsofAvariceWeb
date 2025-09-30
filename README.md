@@ -24,6 +24,14 @@ Deploying this site (public URL)
 - In your repo add the workflow file in `.github/workflows/deploy.yml` (already included here). On push to `main`/`master` the action will publish the repo root to the `gh-pages` branch.
 - In the repository Settings → Pages, set Source to the `gh-pages` branch (root). GitHub will provide a URL like `https://<your-username>.github.io/<repo-name>/`.
 
+Default Pages URL for this project
+
+- Once this repository is pushed and the deploy workflow completes, the default GitHub Pages URL will be:
+
+	https://hnrksns-rgb.github.io/HorizonsofAvariceWeb/
+
+- Note: If a `CNAME` file exists in the repository root, GitHub Pages will attempt to use that custom domain instead of the default github.io URL.
+
 2) Netlify (drag-and-drop or Git)
 
 - Drag-and-drop: zip the folder and drop it on https://app.netlify.com/drop to get an instant URL.
