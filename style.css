@@ -6,7 +6,10 @@
   --accent:#eb3c3c;
   --text:#e6eef8;
   --max-width:1000px;
-}
+}::background-image url('assets/HeroB.jpeg');
+  ::backdrop-filter: blur(6px);
+  ::background-size: cover;
+
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
