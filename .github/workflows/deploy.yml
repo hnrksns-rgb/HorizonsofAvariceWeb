@@ -8,7 +8,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout
         with:
           persist-credentials: false
       - name: Setup Node
