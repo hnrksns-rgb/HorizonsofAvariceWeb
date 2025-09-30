@@ -1,25 +1,11 @@
-// Mobile menu toggle and simple theme persistence
+// Mobile menu toggle
 const menuToggle = document.getElementById('menuToggle');
 const nav = document.getElementById('nav');
-const themeToggle = document.getElementById('themeToggle');
 
 menuToggle?.addEventListener('click', ()=>{
   if(!nav) return;
   const isOpen = nav.style.display === 'flex' || getComputedStyle(nav).display === 'flex';
   nav.style.display = isOpen ? 'none' : 'flex';
-});
-
-function applyTheme(theme){
-  if(theme === 'light') document.documentElement.classList.add('light');
-  else document.documentElement.classList.remove('light');
-}
-
-const saved = localStorage.getItem('theme');
-applyTheme(saved || 'dark');
-
-themeToggle?.addEventListener('click', ()=>{
-  const isLight = document.documentElement.classList.toggle('light');
-  localStorage.setItem('theme', isLight ? 'light' : 'dark');
 });
 
 // contact form demo handler
