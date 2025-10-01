@@ -64,3 +64,7 @@ if(form){
     // Run on page load and window resize
     window.addEventListener('load', checkScreenSize);
     window.addEventListener('resize', checkScreenSize);
+
+      function redirectToWebsite() {
+        window.location.href = "https://horizonsofavarice.bandcamp.com";
+    }
