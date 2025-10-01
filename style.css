@@ -119,7 +119,7 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 5
     }
 
 .scrolling-content {
-  padding-top: 100vh; /* Push content below the hero section */
+  padding-top: 0vh; /* Push content below the hero section */
   position: relative;
   background-color: transparent; /* Allows background image to show through initially */
   z-index: 1; /* Keep above the image */
