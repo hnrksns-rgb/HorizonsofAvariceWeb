@@ -39,7 +39,7 @@ body{
 .features .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1rem}
 .features article{background:linear-gradient(180deg,rgb(88, 5, 5),transparent);padding:1rem;border-radius:8px}
 .site-footer{border-top:1px solid rgba(233, 33, 33, 0.03);padding:1.25rem 0;margin-top:3rem}
-.contact form{display:grid;gap:0.5rem;max-width:40ch; margin-left: auto; margin-right: auto;}
+.contact form{display:grid;gap:0.5rem;max-width:40ch}
 input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 52, 0.06);background:transparent;color:var(--text)}
 @media (max-width:800px){
   .hero-inner{flex-direction:column-reverse;gap:1rem;padding:0}
