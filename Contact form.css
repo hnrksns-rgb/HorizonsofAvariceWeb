@@ -106,3 +106,18 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 5
             font-size: 1.5em;
         }
     }
+
+    body{
+  margin:0;
+  font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,"Helvetica Neue",Arial;
+  background-color:var(--bg);
+  color:var(--text);
+  line-height:1.5;
+  background-color: #333333;
+  background-image : url('images/HeroBL.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
