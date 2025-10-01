@@ -1,7 +1,6 @@
 // Mobile menu toggle
 const menuToggle = document.getElementById('menuToggle');
 const nav = document.getElementById('nav');
-
 menuToggle?.addEventListener('click', ()=>{
   if(!nav) return;
   const isOpen = nav.style.display === 'flex' || getComputedStyle(nav).display === 'flex';
