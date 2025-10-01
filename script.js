@@ -65,6 +65,10 @@ if(form){
     window.addEventListener('load', checkScreenSize);
     window.addEventListener('resize', checkScreenSize);
 
-      function redirectToWebsite() {
-        window.location.href = "https://horizonsofavarice.bandcamp.com";
+      function redirectToBandcamp() {
+        window.open("https://horizonsofavarice.bandcamp.com");
     }
+
+    function redirectToGoFundMe() {
+      window.open("https://gofund.me/b5b130d5d");
+  }
