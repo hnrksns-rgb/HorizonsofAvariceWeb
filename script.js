@@ -57,7 +57,7 @@ if(form){
         } else {
             // Apply specific JavaScript logic for desktop
             console.log("Desktop view detected");
-            document.body.classList.remove('mobile-layout');
+            document.body.classList.add('mobile-layout');
         }
     }
 
