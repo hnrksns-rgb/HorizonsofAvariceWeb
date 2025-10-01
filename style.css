@@ -17,6 +17,11 @@ body{
   color:var(--text);
   line-height:1.5;
   background-color: #333333;
+  background-image : url('images/HeroBL.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .container{
   max-width:var(--max-width);
@@ -33,7 +38,7 @@ body{
 /* Hero layout */
 .hero-inner{display:flex;align-items:center;gap:1.5rem}
 .hero-text{flex:1}
-.hero-media{flex:1;max-width:480px;display:flex;justify-content:center;align-items:center}
+.hero-media{flex:1;max-width:480px;display:flex;justify-content:center;align-items:center;}
 .hero-media img{width:300px;height: 300px;display:block;object-fit:cover;border-radius:8px}
 .hero .lead{color:var(--muted);max-width:60ch}
 .btn{display:inline-block;background:var(--accent);color:white;padding:0.6rem 1rem;border-radius:8px;text-decoration:none}
@@ -106,19 +111,24 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 5
         }
     }
 
-  body {
-  /* Set the background image and its path */
-  background-image: url('HeroBL.jpeg');
-  
-  /* Prevent the image from repeating */
-  background-repeat: no-repeat;
-  
-  /* Resize the image to cover the entire page */
-  background-size: cover;
-  
-  /* Center the image in the viewport */
-  background-position: center;
-  
-  /* Keep the image in a fixed position during scrolling */
-  background-attachment: fixed;
+    .highlight {
+        background-color: #000000; 
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+.scrolling-content {
+  padding-top: 100vh; /* Push content below the hero section */
+  position: relative;
+  background-color: transparent; /* Allows background image to show through initially */
+  z-index: 1; /* Keep above the image */
+}
+
+.scrolling-text-container {
+  padding: 20px; /* Add some padding around the text */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for blur to be visible */
+  backdrop-filter: blur(8px); /* Apply frosted glass effect */
+  -webkit-backdrop-filter: blur(8px); /* For Safari support */
+  transition: backdrop-filter 0.3s ease-in-out; /* Smooth transition for the blur effect */
 }

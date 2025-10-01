@@ -72,3 +72,17 @@ if(form){
     function redirectToGoFundMe() {
       window.open("https://gofund.me/b5b130d5d");
   }
+
+  // Create the new image element
+const newImage = document.createElement('img');
+
+// Set the source and alt text
+newImage.src = 'HeroBL.jpeg';
+newImage.alt = 'Band Logo';
+
+// Get a reference to an existing container in the HTML
+const container = document.getElementById('image-container');
+
+// Append the new image to the container
+container.appendChild(newImage);
+
