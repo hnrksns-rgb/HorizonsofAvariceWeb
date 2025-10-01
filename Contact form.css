@@ -15,7 +15,7 @@ body{
   background-color:var(--bg);
   color:var(--text);
   line-height:1.5;
-  background-color: #761509;
+  background-color:  #333333;
 }
 .container{
   max-width:var(--max-width);
@@ -26,8 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;   
-    min-height: 500px;      
-    background-color: #f0f0f0;
+    min-height: 300px;      
 }
 
 form {
@@ -37,6 +36,12 @@ form {
     border: 1px solid #cccccc00;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.288);
+}
+
+.header{
+       display: flex;
+    justify-content: center;
+    align-items: center;      
 }
 .site-header{backdrop-filter:blur(6px);position:sticky;top:0;background:rgba(0,0,0,0.25);z-index:20}
 .header-inner{display:flex;align-items:center;justify-content:space-between}
