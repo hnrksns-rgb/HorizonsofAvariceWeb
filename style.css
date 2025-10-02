@@ -10,19 +10,6 @@
 
 *{box-sizing:border-box}
 html,body{height:100%}
-body{
-  margin:0;
-  font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,"Helvetica Neue",Arial;
-  background-color:var(--bg);
-  color:var(--text);
-  line-height:1.5;
-  background-color: #333333;
-  background-image : url('images/HeroBL.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
 .container{
   max-width:var(--max-width);
   margin:0 auto;
@@ -118,8 +105,22 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 5
 
 .scrolling-text-container {
   padding: 20px; /* Add some padding around the text */
-  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for blur to be visible */
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background for blur to be visible */
   backdrop-filter: blur(8px); /* Apply frosted glass effect */
   -webkit-backdrop-filter: blur(8px); /* For Safari support */
   transition: backdrop-filter 0.3s ease-in-out; /* Smooth transition for the blur effect */
+}
+
+  body{
+  margin:0;
+  font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,"Helvetica Neue",Arial;
+  background-color:var(--bg);
+  color:var(--text);
+  line-height:1.5;
+  background-color: #333333;
+  background-image : url('images/HeroBL.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
