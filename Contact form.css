@@ -1,10 +1,10 @@
 :root{
   /* dark red background */
   --bg:#2e0707;
-   --card:#111827;
+   --card:#cf4b4b;
   --muted:#000000;
-   --accent:#333333;
-   --text:#000000;
+   --accent:#910909;
+   --text:#6d0707;
   --max-width:1000px;
 }
 *{box-sizing:border-box}
@@ -15,7 +15,7 @@ body{
   background-color:var(--bg);
   color:var(--text);
   line-height:1.5;
-  background-color:  #333333;
+  background-color:  #000000;
 }
 .container{
   max-width:var(--max-width);
@@ -28,10 +28,7 @@ body{
     align-items: center;   
     min-height: 300px;     
       padding: 20px; /* Add some padding around the text */
-  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background for blur to be visible */
-  backdrop-filter: blur(8px); /* Apply frosted glass effect */
-  -webkit-backdrop-filter: blur(8px); /* For Safari support */
-  transition: backdrop-filter 0.3s ease-in-out; /* Smooth transition for the blur effect */ 
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent background for blur to be visible */
 }
 
 form {
@@ -40,15 +37,22 @@ form {
     padding: 20px;
     border: 1px solid #cccccc00;
     border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.288);
+     padding: 20px; /* Add some padding around the text */
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background for blur to be visible */
+  backdrop-filter: blur(8px); /* Apply frosted glass effect */
+  -webkit-backdrop-filter: blur(8px); /* For Safari support */
+  transition: backdrop-filter 0.3s ease-in-out; /* Smooth transition for the blur effect */
 }
 
 .header{
        display: flex;
     justify-content: center;
-    align-items: center;      
+    align-items: center;   
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
-.site-header{backdrop-filter:blur(6px);position:sticky;top:0;background:rgba(0,0,0,0.25);z-index:20}
+.site-header{backdrop-filter:blur(6px);position:sticky;top:0;background:rgba(255, 255, 255, 0.2);;z-index:20}
 .header-inner{display:flex;align-items:center;justify-content:space-between}
 .logo{font-weight:700;color:var(--text);text-decoration:none}
 .nav{display:flex;gap:1rem}
@@ -126,3 +130,11 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(134, 0, 0,
   background-repeat: no-repeat;
 }
 
+.Email{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    min-height: 0px;  
+    color: #000000;
+    --text: #ca1616;
+}
