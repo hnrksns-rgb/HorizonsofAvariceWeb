@@ -72,32 +72,6 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 5
         margin: 0 auto;
     }
 
-    /* Media query for tablets and smaller desktops */
-    @media screen and (max-width: 992px) {
-        .container {
-            width: 90%; /* Adjust width for smaller screens */
-        }
-    }
-
-    /* Media query for mobile devices */
-    @media screen and (max-width: 768px) {
-        .container {
-            width: 100%;
-            padding: 0 15px; /* Add padding for mobile */
-        }
-        /* Example: Stack elements vertically on mobile */
-        .flex-row {
-            flex-direction: column;
-        }
-    }
-
-    /* Media query for very small mobile devices */
-    @media screen and (max-width: 480px) {
-        h1 {
-            font-size: 1.5em;
-        }
-    }
-
 .scrolling-content {
   padding-top: 0vh; /* Push content below the hero section */
   position: relative;
@@ -142,3 +116,29 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(231, 52, 5
 .photo-gallery {
 display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1rem
 }
+
+ /* Media query for tablets and smaller desktops */
+    @media screen and (max-width: 992px) {
+        .container {
+            width: 90%; /* Adjust width for smaller screens */
+        }
+    }
+
+    /* Media query for mobile devices */
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 100%;
+            padding: 0 15px; /* Add padding for mobile */
+        }
+        /* Example: Stack elements vertically on mobile */
+        .flex-row {
+            flex-direction: column;
+        }
+    }
+
+    /* Media query for very small mobile devices */
+    @media screen and (max-width: 480px) {
+        h1 {
+            font-size: 1.5em;
+        }
+    }
