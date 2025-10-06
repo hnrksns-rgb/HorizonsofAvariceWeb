@@ -3,8 +3,8 @@
   --bg:#2e0707;
    --card:#cf4b4b;
   --muted:#000000;
-   --accent:#910909;
-   --text:#6d0707;
+   --accent:#000000;
+   --text:#000000;
   --max-width:1000px;
 }
 *{box-sizing:border-box}
@@ -136,5 +136,5 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(134, 0, 0,
     align-items: center;   
     min-height: 0px;  
     color: #000000;
-    --text: #ca1616;
+    --text: #000000;
 }
