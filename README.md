@@ -28,7 +28,7 @@ Default Pages URL for this project
 
 - Once this repository is pushed and the deploy workflow completes, the default GitHub Pages URL will be:
 
-	https://hnrksns-rgb.github.io/HorizonsofAvariceWeb/
+	https://hnrksns-rgb.github.io/HorizonsofAvariceWeb-main/
 
 - Note: If a `CNAME` file exists in the repository root, GitHub Pages will attempt to use that custom domain instead of the default github.io URL.
 
