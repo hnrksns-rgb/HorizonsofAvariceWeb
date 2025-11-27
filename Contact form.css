@@ -136,5 +136,5 @@ input,textarea{padding:0.6rem;border-radius:6px;border:1px solid rgba(134, 0, 0,
     align-items: center;   
     min-height: 0px;  
     color: #000000;
-    --text: #ffffff;
+    --text: #000000;
 }
